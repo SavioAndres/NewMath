@@ -54,12 +54,17 @@ public class Main {
         String w = new String();
         
         double ww = NewMath.radianosParaGraus(65);
+        double dd = NewMath.grausParaRadianos(1);
         System.out.println("ooooooooo " + ww);
-        System.out.println("seno: " + Math.sin(NewMath.grausParaRadianos(1)));
+        System.out.println("seno: " + Math.sin(dd));
         //System.out.println("fatorial: " + NewMath.fatorial(9) + "ff: " + NewMath.fatorial2(9));
         //System.out.println("seno meu: " + NewMath.sen(NewMath.grausParaRadianos(1)));
-        System.out.println("fib: " + NewMath.fibonacci(5));
-        
+        System.out.println("fib: " + NewMath.fatorial(-6));
+        System.out.println("modulo: " + NewMath.modulo(-453245));
+        System.out.println("modulo: " + NewMath.modulo(453245));
+        System.out.println("modulo: " + Math.abs(-324545245));
+        System.out.println("Log: " + Math.log(2));
+        System.out.println("Log: " + NewMath.log(2));
     }
     
 }
